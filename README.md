@@ -22,16 +22,6 @@ Your API key will look something like this: AIzaSyAtpnKGX13bTgmx0l_gQeatYvdWvY_w
 1. Save the `script.js` file after adding your API key.
 2. Open `index.html` in your browser to verify that Chatbot is working correctly.
 
-## Important Information
 
-This chatbot uses the Gemini beta model, gemini-1.5-flash, which allows more free requests within a shorter timeframe. If you need greater reliability, you can switch to the stable model, gemini-1.5-pro. While the free version of this model has stricter request limits, upgrading to a paid plan will remove these restrictions.
-
-To switch to the gemini-1.5-pro stable model, update the API_URL in the `script.js` file as follows:
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${API_KEY}`;
-
-If you still get an error or get stuck, feel free to message me on Buy Me a Coffee.
-https://buymeacoffee.com/codingnepal
-
----
 
 Happy coding!
